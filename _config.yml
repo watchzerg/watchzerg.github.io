@@ -1,0 +1,12 @@
+# Site settings
+title: watchzerg
+email: watchzerg@domain.com
+description: > # this means to ignore newlines until "baseurl:"
+  desc for my blog
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://yourdomain.com" # the base hostname & protocol for your site
+twitter_username: watchzerg
+github_username:  watchzerg
+
+# Build settings
+markdown: kramdown

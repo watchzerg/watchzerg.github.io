@@ -1,0 +1,55 @@
+---
+/Users/watchzerg/myblog/_posts/2015-03-08-welcome-to-jekyll.markdown:
+  mtime: 2015-03-08 22:50:43.000000000 +08:00
+  deps:
+  - /Users/watchzerg/myblog/_layouts/post.html
+  - /Users/watchzerg/myblog/_includes/head.html
+  - /Users/watchzerg/myblog/_includes/header.html
+  - /Users/watchzerg/myblog/_includes/footer.html
+  - /Users/watchzerg/myblog/_layouts/default.html
+/Users/watchzerg/myblog/about.md:
+  mtime: 2015-03-08 22:50:43.000000000 +08:00
+  deps:
+  - /Users/watchzerg/myblog/_layouts/page.html
+  - /Users/watchzerg/myblog/_includes/head.html
+  - /Users/watchzerg/myblog/_includes/header.html
+  - /Users/watchzerg/myblog/_includes/footer.html
+  - /Users/watchzerg/myblog/_layouts/default.html
+/Users/watchzerg/myblog/feed.xml:
+  mtime: 2015-03-08 22:50:43.000000000 +08:00
+  deps: []
+/Users/watchzerg/myblog/index.html:
+  mtime: 2015-03-08 22:50:43.000000000 +08:00
+  deps:
+  - /Users/watchzerg/myblog/_includes/head.html
+  - /Users/watchzerg/myblog/_includes/header.html
+  - /Users/watchzerg/myblog/_includes/footer.html
+  - /Users/watchzerg/myblog/_layouts/default.html
+/Users/watchzerg/myblog/_layouts/post.html:
+  mtime: 2015-03-08 22:50:43.000000000 +08:00
+  deps: []
+/Users/watchzerg/myblog/_layouts/page.html:
+  mtime: 2015-03-08 22:50:43.000000000 +08:00
+  deps: []
+/Users/watchzerg/myblog/_includes/head.html:
+  mtime: 2015-03-08 22:50:43.000000000 +08:00
+  deps: []
+/Users/watchzerg/myblog/_posts/2015-03-09-test.md:
+  mtime: 2015-03-08 22:31:53.000000000 +08:00
+  deps:
+  - /Users/watchzerg/myblog/_layouts/post.html
+  - /Users/watchzerg/myblog/_includes/head.html
+  - /Users/watchzerg/myblog/_includes/header.html
+  - /Users/watchzerg/myblog/_includes/footer.html
+  - /Users/watchzerg/myblog/_layouts/default.html
+/Users/watchzerg/myblog/_includes/header.html:
+  mtime: 2015-03-08 22:50:43.000000000 +08:00
+  deps: []
+/Users/watchzerg/myblog/_posts/2015-03-08-welcome-to-jekyll.md:
+  mtime: 2015-03-08 22:50:43.000000000 +08:00
+  deps:
+  - /Users/watchzerg/myblog/_layouts/post.html
+  - /Users/watchzerg/myblog/_includes/head.html
+  - /Users/watchzerg/myblog/_includes/header.html
+  - /Users/watchzerg/myblog/_includes/footer.html
+  - /Users/watchzerg/myblog/_layouts/default.html
