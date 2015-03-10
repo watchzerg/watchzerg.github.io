@@ -38,7 +38,7 @@ gem install jekyll --pre
         {% highlight sh %}
           jeclll new myblog # 假设创建到~/myblog目录下
         {% endhighlight %}
-#### 7.如果哪天想要手工升级jekyll
+#### 7.如果哪天又发作了，想要手工升级jekyll
         {% highlight sh %}
           gem update jekyll
         {% endhighlight %}

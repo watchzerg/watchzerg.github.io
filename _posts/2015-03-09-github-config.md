@@ -4,7 +4,7 @@ title: "Github 初步配置"
 tags: github config tutorial
 ---
 
-对于闲不住的技术人员，最一开始是在CSDN之类的平台写博客，然后纷纷买空间域名搭建自己的wordpress之类，现在又全都扑到了github-pages上了。对技术人员来说，越来越方便，可是对外行来说越来越看不懂了。  
+闲不住的技术人员们，最一开始是在CSDN之类的平台写博客，然后纷纷买空间域名搭建自己的wordpress之类，现在又全都扑到了github-pages上了。对技术人员来说，越来越方便，可是对外行来说越来越看不懂了。  
 我也小折腾一下，先写一篇测试博客看看。  
 这里列一下配置github的过程吧（以mac为例）。
 
@@ -44,6 +44,7 @@ tags: github config tutorial
 ### 二、使用key-chain保存https访问密码
 github官方建议使用https方式clone，所以需要使用credential helper将github密码缓存在git里。
 如果使用homebrew安装的git，那么osxkeychain helper已经被安装了
+
 #### 1.确认是否被安装：
         {% highlight sh %}
           git credential-osxkeychain
