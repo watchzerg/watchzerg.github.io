@@ -27,8 +27,7 @@ gem sources # 确认一下设置后的最终结果
         {% endhighlight %}
 #### 4.安装jekyll
 		{% highlight sh %}
-gem install jekyll
-gem install jekyll --pre
+          gem install jekyll
 		{% endhighlight %}
 #### 5.安装pygments（代码高亮）
         {% highlight sh %}
