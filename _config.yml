@@ -12,3 +12,5 @@ github_username:  watchzerg
 markdown: kramdown
 gems:
   - jekyll-sitemap
+  - jekyll-mentions
+  - jemoji
