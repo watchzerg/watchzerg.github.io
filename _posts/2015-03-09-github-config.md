@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Github 初步配置"
+title: "博客搭建(一) Github 初步配置"
 tags: github config tutorial
 ---
 
@@ -58,4 +58,10 @@ sudo mv git-credential-osxkeychain "$(dirname $(which git))/git-credential-osxke
         {% highlight sh %}
           git config --global credential.helper osxkeychain
         {% endhighlight %}
+
+---
+[《博客搭建(一) Github 初步配置》]({% post_url 2015-03-09-github-config %})
+[《博客搭建(二) Jekyll与Github-page的安装和部署》]({% post_url 2015-03-10-jekyll-github-page-install-deploy %})
+[《博客搭建(三) Jekyll配置》]({% post_url 2015-03-19-jekyll-config %})
+[《博客搭建(四) 使用Jekyll写博客》]({% post_url 2015-03-20-jekyll-write-blog %})
 

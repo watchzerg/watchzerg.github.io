@@ -3,14 +3,16 @@ title: watchzerg's blog
 email: watchzerg@gmail.com
 description: > 
   Well, this is my blog.
-baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://watchzerg.github.io" # the base hostname & protocol for your site
+baseurl: "" 
+url: "http://watchzerg.github.io"
 twitter_username: watchzerg
 github_username:  watchzerg
 
 # Build settings
-markdown: kramdown
+markdown: kramdown	#使用kramdown做代码语法高亮
+kramdown:
+  input: GFM	#启用github的markdown语法
 gems:
-  - jekyll-sitemap
-  - jekyll-mentions
-  - jemoji
+  - jekyll-sitemap	#生成sitemap
+  - jekyll-mentions	#允许"@somebody"
+  - jemoji	#允许标签

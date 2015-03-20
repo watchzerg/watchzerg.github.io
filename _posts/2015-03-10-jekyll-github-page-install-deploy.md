@@ -1,13 +1,9 @@
 ---
 layout: post
-title: "Jekyll与Github-page的安装"
+title: "博客搭建(二) Jekyll与Github-page的安装和部署"
 tags: github config tutorial
 ---
-
-前一篇文章[《Github 初步配置》]({% post_url 2015-03-09-github-config %})里记录了一下Github配置过程。  
-接下来继续说一下博客程序jekyll和github-page工具的安装(还是以mac为例)。
-
-### 一、安装Jekyll
+### 一、安装和部署Jekyll
 细节请参考各个官方链接：  
 [http://jekyllrb.com/docs/installation/](http://jekyllrb.com/docs/installation/)  
 [https://github.com/jekyll/jekyll](https://github.com/jekyll/jekyll)  
@@ -94,13 +90,11 @@ git commit -m "big bang" # 从stage提交到master分支
 git remote add origin https://github.com/watchzerg/watchzerg.github.io.git # 关联到远程（记得替换用户名）
 git push -u origin master # 数据真正push到github上
         {% endhighlight %}
-
-
-
-
-
-
-
+---
+[《博客搭建(一) Github 初步配置》]({% post_url 2015-03-09-github-config %})
+[《博客搭建(二) Jekyll与Github-page的安装和部署》]({% post_url 2015-03-10-jekyll-github-page-install-deploy %})
+[《博客搭建(三) Jekyll配置》]({% post_url 2015-03-19-jekyll-config %})
+[《博客搭建(四) 使用Jekyll写博客》]({% post_url 2015-03-20-jekyll-write-blog %})
 
 
 
