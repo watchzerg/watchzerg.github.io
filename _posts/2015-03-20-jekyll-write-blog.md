@@ -5,7 +5,7 @@ tags: jekyll blog config tutorial
 ---
 
 ### 一、博文文件头
-1,在_posts目录下新建`yyyy-MM-dd-titlepart1-titlepart2.md`这样的文件（不要带BOM头，特别是windows用户要注意）。例如本篇博客就是`2015-03-20-jekyll-usage.md`
+1,在_posts目录下新建`yyyy-MM-dd-titlepart1-titlepart2.md`这样的文件（不要带BOM头，特别是windows用户要注意）。例如本篇博客就是`2015-03-20-jekyll-write-blog.md`
 
 2,文件开头必须是`YAML Front Matter`，用来标明本篇博客的一些属性，例如这篇博客的开头五行是：
 {% highlight yaml %}
