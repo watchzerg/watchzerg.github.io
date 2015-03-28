@@ -23,7 +23,7 @@ gem sources # 确认一下设置后的最终结果
         {% endhighlight %}
 #### 4.安装jekyll
 		{% highlight sh %}
-          gem install jekyll
+          sudo gem install jekyll
 		{% endhighlight %}
 #### 5.安装pygments（代码高亮）
         {% highlight sh %}
@@ -35,14 +35,14 @@ gem sources # 确认一下设置后的最终结果
         {% endhighlight %}
 #### 7.如果哪天又发作了，想要手工升级jekyll
         {% highlight sh %}
-          gem update jekyll
+          sudo gem update jekyll
         {% endhighlight %}
 
 ### 二、与github-pages的集成
 
 #### 1.安装Bundler
         {% highlight sh %}
-          gem install bundler
+          sudo gem install bundler
         {% endhighlight %}
 #### 2.项目目录下建立文件Gemfile，加入以下内容
 	{% highlight ruby %}
@@ -61,15 +61,21 @@ gem 'github-pages', versions['github-pages']
         {% endhighlight %}
 #### 4.使用bundler安装github-pages相关的依赖
         {% highlight sh %}
-		sudo bundle install
+		bundle install # 执行bundle的时候不要sudo（需要的话它自己会申请，否则普通用户可能用不了）
         {% endhighlight %}
+
+如果执行过程中出现“安装某版本nokogiri失败，找不到libxml2本地库”，需要加参数先独立安装一下失败的nokogiri版本（然后再重试上一步）：
+        {% highlight sh %}
+    sudo gem install nokogiri -v '1.6.6.2' -- --with-xml2-include=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk/usr/include/libxml2 --use-system-libraries
+        {% endhighlight %}
+
 #### 5.使用bundler启动jekyll服务（jekyll会自动watch目录变化并自动rebuild）
         {% highlight sh %}
 		bundle exec jekyll serve # 然后就可以访问 http://127.0.0.1:4000/
         {% endhighlight %}
 #### 6.必要时手动更新bundler
         {% highlight sh %}
-		sudo bundle update
+		bundle update
         {% endhighlight %}
 
 然后就可以开始写博客啦，详情将在下一篇文章里讲。  
