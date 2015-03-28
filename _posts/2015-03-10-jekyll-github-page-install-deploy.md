@@ -96,6 +96,10 @@ git commit -m "big bang" # 从stage提交到master分支
 git remote add origin https://github.com/watchzerg/watchzerg.github.io.git # 关联到远程（记得替换用户名）
 git push -u origin master # 数据真正push到github上
         {% endhighlight %}
+#### 3.以后如果换了新机器，先把博客克隆回来即可
+        {% highlight sh %}
+    git clone https://github.com/watchzerg/watchzerg.github.io.git ~/myblog
+        {% endhighlight %}
 ---
 [《博客搭建(一) Github 初步配置》]({% post_url 2015-03-09-github-config %})
 [《博客搭建(二) Jekyll与Github-page的安装和部署》]({% post_url 2015-03-10-jekyll-github-page-install-deploy %})
