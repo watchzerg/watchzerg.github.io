@@ -1,9 +1,9 @@
 # Site settings
 title: watchzerg's blog
 email: watchzerg@gmail.com
-description: > 
+description: >
   Well, this is my blog.
-baseurl: "" 
+baseurl: ""
 url: "http://watchzerg.github.io"
 twitter_username: watchzerg
 github_username:  watchzerg
@@ -12,7 +12,7 @@ github_username:  watchzerg
 markdown: kramdown	#使用kramdown做代码语法高亮
 kramdown:
   input: GFM	#启用github的markdown语法
-gems:
+plugins:
   - jekyll-sitemap	#生成sitemap
   - jekyll-mentions	#允许"@somebody"
   - jemoji	#允许标签

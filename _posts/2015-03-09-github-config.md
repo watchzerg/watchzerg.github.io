@@ -9,23 +9,23 @@ tags: github config tutorial
 这里列一下配置github的过程吧（以mac为例）。
 
 ### 一、ssh的配置
-官方并不推荐，不过还是弄一下备用，而且key也可以用在其它地方。 
- 
+官方并不推荐，不过还是弄一下备用，而且key也可以用在其它地方。
+
 #### 1.生成ssh-key（最好设置密码，密码可以保存在key-chain里）：
         {% highlight sh %}
           ssh-keygen -t rsa -C "your_email@example.com"
         {% endhighlight %}
-#### 2.增删改ssh-key密码：  
+#### 2.(可选)增删改ssh-key密码：  
         {% highlight sh %}
-        ssh-keygen -p 
+        ssh-keygen -p
         {% endhighlight %}
-#### 3.在OS X里，ssh-agent已经集成在了key-chain里面，确保其在运行：
+#### 3.(可选)在OS X里，ssh-agent已经集成在了key-chain里面，确保其在运行：
         {% highlight sh %}
           ssh-agent -s
         {% endhighlight %}
 其默认会保护`.ssh/id_rsa`, `.ssh/id_dsa`, `.ssh/identity`这三个文件
 
-#### 4.如果key名字不是默认，手工添加：
+#### 4.(可选)如果key名字不是默认，手工添加：
         {% highlight sh %}
           ssh-add -K path/to/my_key
         {% endhighlight %}
@@ -35,13 +35,13 @@ tags: github config tutorial
         {% endhighlight %}
 #### 6.粘贴到： [https://github.com/settings/ssh](https://github.com/settings/ssh)
 
-#### 7.验证是否成功：
+#### 7.(可选)验证是否成功：
         {% highlight sh %}
           ssh -T git@github.com
         {% endhighlight %}
 
 
-### 二、使用key-chain保存https访问密码
+### 二、(可选)使用key-chain保存https访问密码
 github官方建议使用https方式clone，所以需要使用credential helper将github密码缓存在git里。
 如果使用homebrew安装的git，那么osxkeychain helper已经被安装了
 
@@ -64,4 +64,3 @@ sudo mv git-credential-osxkeychain "$(dirname $(which git))/git-credential-osxke
 [《博客搭建(二) Jekyll与Github-page的安装和部署》]({% post_url 2015-03-10-jekyll-github-page-install-deploy %})
 [《博客搭建(三) Jekyll配置》]({% post_url 2015-03-19-jekyll-config %})
 [《博客搭建(四) 使用Jekyll写博客》]({% post_url 2015-03-20-jekyll-write-blog %})
-
