@@ -55,12 +55,8 @@ github官方也给出了很多自定义域名的建议
 建议使用七牛云，咱这点流量是免费的，业界良心啊
 
 ---
-[《博客搭建(一) Github 初步配置》]({% post_url 2015-03-09-github-config %})
-[《博客搭建(二) Jekyll与Github-page的安装和部署》]({% post_url 2015-03-10-jekyll-github-page-install-deploy %})
-[《博客搭建(三) Jekyll配置》]({% post_url 2015-03-19-jekyll-config %})
-[《博客搭建(四) 使用Jekyll写博客》]({% post_url 2015-03-20-jekyll-write-blog %})
-
-
-
-
+[《博客搭建(一) Github 初步配置》]({% post_url 2015-03-09-github-config %})  
+[《博客搭建(二) Jekyll与Github-page的安装和部署》]({% post_url 2015-03-10-jekyll-github-page-install-deploy %})  
+[《博客搭建(三) Jekyll配置》]({% post_url 2015-03-19-jekyll-config %})  
+[《博客搭建(四) 使用Jekyll写博客》]({% post_url 2015-03-20-jekyll-write-blog %})  
 
